@@ -42,9 +42,7 @@ local scanner = table.deepcopy(data.raw["constant-combinator"]["constant-combina
 scanner.name = "ghost-scanner"
 scanner.icon = "__GhostScanner__/graphics/icons/ghost-scanner.png"
 scanner.icon_size = 32
-scanner.icon_mipmaps = 1
 scanner.minable.result = "ghost-scanner"
 scanner.sprites = sprites
-scanner.item_slot_count = 1000
 
 data:extend({ scanner })
