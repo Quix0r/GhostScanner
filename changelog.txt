@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2026-04-26
+  Changes:
+    - added scripts/build_package.py which you should execute from this directory, it then will
+      build a ZIP release file ready for Factorio mod portal upload
+    - renamed loop variable `i` to `_` as this is common practice when the index variable is
+      being ignored
+
+  Fixed:
+    - duplicate `signal.signal` namespace to `signal` only (caused `nil` reference)
+---------------------------------------------------------------------------------------------------
 Version: 2.0.0
 Date: 2024-11-19
   Features:

@@ -390,7 +390,7 @@ do
       if InvertSign then round = math.floor end
 
       for _, signal in pairs(signals) do
-        local prototype = prototypes.item[signal.signal.name]
+        local prototype = prototypes.item[signal.name]
         if prototype then
           local stack_size = prototype.stack_size
           signal.count = round(signal.count / stack_size) * stack_size
